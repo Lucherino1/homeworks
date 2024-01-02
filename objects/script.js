@@ -207,6 +207,6 @@
 // buyLaptop("Ananas", "7d708189-2cda-4aba-8da9-8b3766bb572b");
 // console.log(clients);
 // console.log(laptops);
-// sellLaptop("7d708189-2cda-4aba-8da9-8b3766bb572b");
+// sellLaptop('79161cdb-02dc-e419-9e2e-09b1b0e35943');
 // console.log(clients);
 // console.log(laptops);
