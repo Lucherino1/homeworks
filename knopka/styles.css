@@ -1,0 +1,72 @@
+body .btn-container {
+  display: flex;
+  justify-content: center; }
+  body .btn-container .btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
+    padding: 0;
+    margin-top: 200px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #b2b5c3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); }
+    body .btn-container .btn:hover {
+      cursor: pointer; }
+    body .btn-container .btn-start, body .btn-container .btn-active {
+      z-index: 1;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      transition: opacity 0.3s ease-in-out;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
+      body .btn-container .btn-start img, body .btn-container .btn-active img {
+        width: 20px;
+        height: 20px; }
+    body .btn-container .btn:hover .btn-active {
+      opacity: 1; }
+    body .btn-container .btn-start {
+      background: #1a75c9; }
+      body .btn-container .btn-start:hover {
+        opacity: 0; }
+    body .btn-container .btn-active {
+      background: #e2ecfe;
+      opacity: 0; }
+    body .btn-container .btn-notes {
+      background-color: #fff;
+      position: absolute;
+      right: 5px;
+      border: 1px #b2b5c3 solid;
+      box-shadow: 1px 1px 6px #b2b5c3;
+      border-radius: 50px;
+      height: 30px;
+      width: 30px;
+      transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: 0.25s ease-in-out; }
+      body .btn-container .btn-notes-inner {
+        width: 220px;
+        height: 25px;
+        background-color: #1a75c9;
+        margin: 0;
+        border-radius: 20px; }
+      body .btn-container .btn-notes p {
+        margin-top: 7px;
+        color: #fff;
+        font-size: 12px; }
+    body .btn-container .btn:hover .btn-notes {
+      opacity: 1;
+      width: 230px; }
+
+/*# sourceMappingURL=styles.css.map */
